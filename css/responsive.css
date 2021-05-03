@@ -1,0 +1,612 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/* @media only screen and (min-width: 0px) and (max-width: 320px) {
+    /****360*640****
+    #header_outar {
+        position: relative;
+        background: #cf2c2c;
+    }
+    #header_outar .nav {
+        left: 30px;
+        width: 100%;
+        height: auto;
+        top: 73px;
+        display: none;
+    }
+    #header_outar .nav ul {
+        background: #000000;
+        height: 250px;
+    }
+    #header_outar .nav ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        background-color: #000000;
+    }
+    #header_outar .nav ul li.active {
+        margin: 0px;
+        min-height: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #00CF97;
+    }
+    #header_outar .nav ul li a {
+        float: none;
+        color: #FFFFFF;
+        top: 5px;
+        width: 100px;
+    }
+    #header_outar .nav ul li a.toggle_a:hover {
+        background-color: #00CF97;
+        width: 100px;
+    }
+    #header_outar .res-nav_click {
+        bottom: 20px;
+        display: block;
+        font-size: 25px;
+        left: 300px;
+        position: absolute;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #header_outar .res-nav_click a {
+        text-decoration: none;
+    }
+    #header_outar .res-nav_click a:hover {
+        text-decoration: none;
+        color: #060;
+    }
+    #main_contant .top_left_contant {
+        padding-top: 150px;
+    }
+    #main_contant .top_left_contant h1 {
+        margin: 0px;
+        font-size: 40px;
+    }
+    #main_contant .top_left_contant p {
+        width: 96%;
+        font-weight: 600;
+    }
+    #main_contant .shared_content p {
+        width: 80%;
+        left: 25px;
+    }
+    .c1 {
+        margin-top: 10px;
+    }
+    .c2 {
+        margin-top: 5px;
+    }
+    #main_contant .photo1 {
+        margin-left: 115px;
+    }
+    #main_contant .text3 {
+        padding-bottom: 75px;
+    }
+    #main_contant .img_author img {
+        width: 100%;
+        height: 295px;
+    }
+    #main_contant .text-sec h2 {
+        font-size: 21px;
+    }
+    #main_contant .text-sec {
+        height: 90px;
+    }
+    #main_contant .text-sec-author p {
+        width: 100%;
+    }
+    #main_contant .text4 {
+        padding-bottom: 0px;
+    }
+    #main_contant .ketab {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    #main_contant .text_add {
+        left: -50px;
+    }
+    #main_contant .text-ketab {
+        right: 0px;
+        left: 7px;
+        margin-bottom: 30px;
+    }
+    #main_contant .box_cont {
+        width: 90%;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        height: 200px;
+    }
+    #main_contant .text_read {
+        float: none;
+        width: 48%;
+    }
+    #main_contant .box_content {
+        width: 100%;
+        margin-bottom: 165px;
+    }
+    #main_contant .box_content#box1 {
+        width: 100%;
+    }
+    #main_contant .box_content#box2 {
+        width: 100%;
+        margin-left: -50px;
+    }
+    #main_contant .box_content#box3 {
+        width: 100%;
+        margin-left: -100px;
+    }
+    #main_contant .text5 {
+        height: 420px;
+    }
+    .carousel {
+        height: 400px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+        top: 200px;
+        width: 8%;
+    }
+    #main_contant .rounded_cell {
+        width: 190px;
+        margin-left: 33px;
+    }
+    #main_contant .img_cell {
+        margin-left: 100px;
+        width: 24%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #main_contant .position_content button {
+        width: 90%;
+        margin-left: 15px;
+    }
+    #main_contant .form_contact #Name,
+    #Email {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #main_contant .form_contact #textarea {
+        width: 100%;
+    }
+    #main_contant .size_fixed {
+        width: 115%;
+        margin-left: -22px;
+    }
+    #main_contant #text_contact_left {
+        margin-left: -30px;
+    }
+} */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    /*768*1024*/
+    #header_outar {
+        position: relative;
+        background: #000000;
+    }
+    #header_outar .logo {
+        position: relative;
+        top: 0px;
+        float: right;
+    }
+    #header_outar .nav {
+        left: 0px;
+        width: 100%;
+        height: auto;
+        top: 10px;
+        display: none;
+        position: relative;
+    }
+    #header_outar .nav ul {
+        background: #000000;
+        height: 265px;
+    }
+    #header_outar .nav ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        background-color: #000000;
+    }
+    #header_outar .nav ul li.active {
+        margin: 0px;
+        min-height: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #00CF97;
+    }
+    #header_outar .nav ul li a {
+        float: none;
+        color: #FFFFFF;
+        top: 5px;
+        width: 100px;
+    }
+    #header_outar .nav ul li a.toggle_a:hover {
+        background-color: #00CF97;
+    }
+    #header_outar .res-nav_click {
+        display: block;
+        font-size: 25px;
+        position: absolute;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #header_outar .res-nav_click a {
+        text-decoration: none;
+    }
+    #header_outar .res-nav_click a:hover {
+        text-decoration: none;
+        color: #060;
+    }
+    #main_contant .top_left_contant {
+        padding-top: 170px;
+    }
+    #main_contant .top_left_contant h1 {
+        margin: 0px;
+    }
+    #main_contant .top_left_contant p {
+        width: 75%;
+    }
+    #main_contant .shared_content p {
+        width: 84%;
+        left: 15px;
+    }
+    #main_contant .photo1 {
+        margin-left: 156px;
+    }
+    #main_contant .img_author img {
+        width: 91%;
+        height: 340px;
+    }
+    #main_contant .text-sec {
+        height: 100px;
+    }
+    #main_contant .text-sec h2 {
+        font-size: 23px;
+        width: 220px;
+    }
+    #main_contant .text-sec p {
+        width: 180px;
+    }
+    #main_contant .text-sec-author p {
+        width: 100%;
+        text-align: justify;
+    }
+    #main_contant .text-ketab {
+        right: 5px;
+        width: 70%;
+    }
+    #main_contant .text_add {
+        width: 30px;
+    }
+    #main_contant .box_blog {
+        margin-bottom: 20px;
+    }
+    #main_contant .box_cont {
+        width: 99%;
+        height: 200px;
+    }
+    #main_contant .box_content {
+        width: 112%;
+    }
+    .carousel {
+        width: 100%;
+        height: 500px;
+        margin-left: 1px;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+        top: 95px;
+    }
+    #main_contant .rounded_cell {
+        width: 100%;
+    }
+    #main_contant .img_cell {
+        margin-left: 150px;
+        width: 30%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #main_contant .position_content {
+        width: 111%;
+    }
+    #main_contant .position_content button {
+        width: 70%;
+    }
+    #main_contant .photo-contact.photo-cont {
+        margin-left: -1px;
+    }
+    #main_contant .form_contact #Name,
+    #Email {
+        margin-bottom: 12px;
+        width: 280px;
+        margin-left: 3px;
+        border: 1px solid #ccc;
+    }
+    #main_contant .form_contact #textarea {
+        width: 280px;
+        margin-left: 3px;
+        border: 1px solid #ccc;
+    }
+    #main_contant .form_contact button {
+        margin-left: 25px;
+    }
+    #main_contant .size_fixed {
+        margin-left: -74px;
+    }
+    #main_contant #text_contact_left {
+        margin-left: -40px;
+    }
+    .c1 {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    /****800*1280 ****/
+    #header_outar {
+        position: relative;
+        background: #000000;
+    }
+    #header_outar .logo {
+        top: 0px;
+        position: relative;
+        float: right;
+    }
+    #header_outar .nav {
+        display: none;
+        position: relative;
+        left: 20px;
+        width: 100%;
+        height: auto;
+        top: 15px;
+    }
+    #header_outar .nav ul {
+        background: #000000;
+        height: 265px;
+    }
+    #header_outar .nav ul li {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        background-color: #000000;
+    }
+    #header_outar .nav ul li.active {
+        margin: 0px;
+        min-height: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: #00CF97;
+    }
+    #header_outar .nav ul li a {
+        float: none;
+        color: #FFFFFF;
+        top: 5px;
+        width: 100px;
+    }
+    #header_outar .nav ul li a.toggle_a:hover {
+        background-color: #00CF97;
+    }
+    #header_outar .res-nav_click {
+        display: block;
+        font-size: 25px;
+        position: absolute;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    #main_contant .top_cont_inner {
+        min-height: 550px;
+        background-attachment: inherit;
+    }
+    #main_contant .container {
+        width: 725px;
+    }
+    #main_contant .top_left_contant {
+        padding-top: 168px;
+        margin-left: -30px;
+    }
+    #main_contant .top_left_contant h1 {
+        margin: 0px;
+    }
+    #main_contant .shared_content {
+        margin-left: -20px;
+    }
+    #main_contant .shared_content p {
+        width: 85%;
+    }
+    #main_contant .photo1 {
+        margin-left: 115px;
+    }
+    #main_contant .img_author {
+        margin-left: -65px;
+    }
+    #main_contant .img_author img {
+        height: 390px;
+    }
+    #main_contant .text-sec {
+        height: 100px;
+    }
+    #main_contant .text-sec-author p {
+        width: 136%;
+    }
+    #main_contant .text-ketab {
+        width: 100%;
+        right: 0;
+    }
+    #main_contant .carousel-inner {
+        min-height: 370px;
+    }
+    #main_contant .box_cont {
+        width: 99%;
+        left: -9px;
+        margin-top: 140px;
+        padding: 18px 18px 50px 17px;
+    }
+    #main_contant .box_content {
+        width: 112%;
+    }
+    .carousel {
+        width: 100%;
+        height: 270px;
+        margin-left: 1px;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+        top: 95px;
+    }
+    #main_contant .text-like1 {
+        width: 77px;
+        right: 37px;
+    }
+    #main_contant .rounded_cell {
+        width: 74%;
+    }
+    #main_contant .img_cell {
+        margin-left: 260px;
+        width: 12%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #main_contant .container#PRICING {
+        width: 762px;
+    }
+    #main_contant .position_content button {
+        width: 70%;
+    }
+    #main_contant .form_contact #Name,
+    #Email {
+        margin-bottom: 13px;
+        width: 300px;
+    }
+    #main_contant .form_contact #textarea {
+        width: 300px;
+        margin-top: 9px;
+        height: 101px;
+    }
+    #main_contant .size_fixed {
+        margin-left: -47px;
+        width: 124%;
+    }
+    #main_contant #text_contact_left {
+        margin-left: -37px;
+    }
+    .c1 {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+    /****980*1280 ****/
+    #header_outar .logo {
+        margin-left: 25px;
+        float: right;
+    }
+    #header_outar .nav {
+        left: 430px;
+    }
+    #header_outar .nav ul li.active {
+        width: 50px;
+    }
+    #header_outar .res-nav_click {
+        display: none;
+        text-decoration: none;
+    }
+    #main_contant .top_left_contant h1 {
+        margin: 0px;
+    }
+    .container {
+        width: 100%;
+    }
+    #main_contant .shared_content {
+        margin-left: -20px;
+    }
+    #main_contant .shared_content p {
+        width: 84%;
+        left: 15px;
+    }
+    #main_contant .photo1 {
+        margin-left: 100px;
+    }
+    #main_contant .img_author {
+        margin-left: -65px;
+    }
+    #main_contant .img_author img {
+        width: 85%;
+        height: 400px;
+    }
+    #main_contant .text-sec {
+        height: 100px;
+    }
+    #main_contant .text-author {
+        margin-left: -40px;
+    }
+    #main_contant .text-sec-author p {
+        width: 120%;
+    }
+    #main_contant .text-ketab {
+        right: 44px;
+    }
+    #main_contant .box_cont {
+        width: 94%;
+        left: -2px;
+    }
+    .carousel {
+        width: 100%;
+        height: 270px;
+        margin-left: 1px;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+        top: 95px;
+    }
+    #main_contant .rounded_cell {
+        width: 100%;
+    }
+    #main_contant .img_cell {
+        margin-left: 422px;
+        width: 7%;
+        margin-bottom: 10px;
+    }
+    #main_contant .photo-contact.photo-cont {
+        margin-left: -4px;
+    }
+    #main_contant .position_content button {
+        width: 75%;
+        margin-left: 45px;
+    }
+    #main_contant .form_contact #Name,
+    #Email {
+        margin-bottom: 10px;
+        width: 377px;
+        margin-left: 10px;
+    }
+    #main_contant .form_contact #textarea {
+        width: 377px;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    #main_contant .size_fixed {
+        margin-left: -74px;
+    }
+    #main_contant #text_contact_left {
+        margin-left: -33px;
+    }
+    .c1 {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    /****1280*600 ****/
+}
