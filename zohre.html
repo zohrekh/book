@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link href="bootstrap/bootstrap-3.3.4..css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/font.css" type="text/css" rel="stylesheet">
+    <link href="css/flickity.min.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive.css" type="text/css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/flickity-docs.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $('.res-nav_click').click(function() {
+                $('#header_outar .nav').slideToggle(600)
+            });
+
+            $('#toggle a').click(function() {
+                var url = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(url).offset().top
+                }, 2000);
+            });
+            var widthwin = $(window).width();
+            if (widthwin <= 767) {
+                $('#tab-product').attr('data-flickity', '{ "contain": true, "pageDots": false, "rightToLeft": true, "prevNextButtons": false, "freeScroll": true, "cellAlign": "right", "groupCells": 1 }');
+            }
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <header id="header_outar">
+        <div class="container">
+            <div class="logo"><img src="image/logo.png" alt=""></div>
+
+            <nav class="nav">
+                <ul class="toggle" id="toggle">
+
+                    <li class="active clearfix"><a href="#index">HOME</a></li>
+                    <li><a class="toggle_a" href="#FEATURE">FEATURE</a></li>
+                    <li><a class="toggle_a" href="#OVERVIEW">OVERVIEW</a></li>
+                    <li><a class="toggle_a" href="#AUTHOR">AUTHOR</a></li>
+                    <li><a class="toggle_a" href="#BLOG" style="padding-right:5px;">BLOG</a></li>
+                    <li><a class="toggle_a" href="#REVIEW">REVIEW</a></li>
+                    <li><a class="toggle_a" href="#PRICING">PRICING</a></li>
+                    <li><a class="toggle_a" href="#CONTACT">CONTACT</a></li>
+                </ul>
+            </nav>
+            <a class="res-nav_click" href="javascript:void(0)"><i class="fa-bars"></i></a>
+        </div>
+
+
+
+    </header>
+    <!--header-->
+    <main id="main_contant">
+        <div class="top_cont_inner" id="index">
+            <div class="container">
+                <div class="top_content">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-10 col-xs-12">
+                            <div class="top_left_contant">
+                                <h1>EBOOK</h1>
+                                <h1> LANDING PAGE</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                <button type="button" class="btn btn-default">BUY NOW</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="c1"></div>
+        <div class="container" id="FEATURE">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="text">
+                        <h1>FEATURES</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                    <div class="c2"></div>
+
+                    <div class="col-md-4 shared_cont">
+                        <div class="shared_content clearfix">
+                            <div class="photo">
+                                <img src="image/icon1.png" alt="">
+                            </div>
+                            <h4>feature heading one</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 shared_cont">
+
+                        <div class="shared_content clearfix" id="shared_cont2">
+                            <div class="photo">
+                                <img src="image/icon2.png" alt="">
+                            </div>
+                            <h4>feature heading two</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 shared_cont">
+
+                        <div class="shared_content clearfix">
+                            <div class="photo">
+                                <img src="image/icon3.png" alt="">
+                            </div>
+                            <h4>feature heading three</h4>
+                            <p style="min-height:75px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="c1"></div>
+        <div class="container" id="OVERVIEW">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="text">
+                        <h1>OVERVIEW</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                    <div class="c2"></div>
+
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 shared_cont">
+                        <div class="photo1 col-md-2 col-sm-3 col-xs-3">
+                            <div class="photo1_frame">
+                                <img src="image/anchor.png" alt="">
+                            </div>
+                        </div>
+                        <div class="shared_content over_view clearfix">
+                            <div class="c2"></div>
+                            <h4>chapter - 1</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 shared_cont">
+                        <div class="photo1 col-md-2 col-sm-3 col-xs-3">
+                            <div class="photo1_frame">
+                                <img src="image/mug.png" alt="">
+                            </div>
+                        </div>
+                        <div class="shared_content over_view clearfix">
+                            <div class="c2"></div>
+                            <h4>chapter - 2</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 shared_cont">
+                        <div class="photo1 col-md-2 col-sm-3 col-xs-3">
+                            <div class="photo1_frame">
+                                <img src="image/compass.png" alt="">
+                            </div>
+                        </div>
+                        <div class="shared_content over_view clearfix">
+                            <div class="c2"></div>
+                            <h4>chapter - 3</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="c2"></div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 shared_cont">
+                        <div class="photo1 col-md-2 col-sm-3 col-xs-3">
+                            <div class="photo1_frame">
+                                <img src="image/bulb.png" alt="">
+                            </div>
+                        </div>
+                        <div class="shared_content over_view clearfix">
+                            <div class="c2"></div>
+                            <h4>chapter - 4</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 shared_cont">
+                        <div class="photo1 col-md-2 col-sm-3 col-xs-3">
+                            <div class="photo1_frame">
+                                <img src="image/pencil.png" alt="">
+                            </div>
+                        </div>
+                        <div class="shared_content over_view clearfix">
+                            <div class="c2"></div>
+                            <h4>chapter - 5</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 shared_cont">
+                        <div class="photo1 col-md-2 col-sm-3 col-xs-3">
+                            <div class="photo1_frame">
+                                <img src="image/book.png" alt="">
+                            </div>
+                        </div>
+                        <div class="shared_content over_view clearfix">
+                            <div class="c2"></div>
+                            <h4>chapter - 6</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="c1"></div>
+        <div class="text3">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="text_parall">
+
+                            <h1>SEE OUR VIDEO REVIEW</h1>
+                        </div>
+                        <img src="image/play_button.png" alt="">
+
+
+                    </div>
+                    <!--row-->
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container" id="AUTHOR">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="c1"></div>
+
+                    <div class="text">
+                        <h1>AUTHOR</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                    <div class="c1"></div>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="col-md-5 col-sm-6 col-xs-12 img_author">
+                            <img src="image/author_img.jpg" alt="">
+                        </div>
+                        <div class="col-md-7 col-sm-6 col-xs-12">
+                            <div class="text-sec clearfix">
+                                <h2>J.R.R. Tolkien</h2>
+                                <p>Cofounder and Author</p>
+                            </div>
+                            <div class="text-sec-author clearfix">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                                    felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</p>
+                            </div>
+                            <div class="social-links">
+                                <ul>
+                                    <li class="link">
+                                        <p></p>
+                                    </li>
+                                    <li class="link">
+                                        <p></p>
+                                    </li>
+                                    <li class="link">
+                                        <p></p>
+                                    </li>
+                                    <li class="link">
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="photo-link clearfix">
+                                <img src="image/autograph.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c1"></div>
+
+
+
+        <div class="c1"></div>
+
+        <div class="text4">
+            <div class="container" id="BLOG">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="ketab">
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="text_add">
+                                    <h1>10</h1>
+                                </div>
+                                <div class="img_ketab">
+                                    <img src="image/chapter.png" alt="">
+
+                                </div>
+                                <div class="text-ketab">
+                                    <p>CHAPTERS</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="text_add">
+                                    <h1>200</h1>
+                                </div>
+                                <div class="img_ketab">
+                                    <img src="image/sales.png" alt="">
+                                </div>
+                                <div class="text-ketab">
+                                    <p>SALES</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="text_add">
+                                    <h1>600</h1>
+                                </div>
+                                <div class="img_ketab">
+                                    <img src="image/pages.png" alt="">
+                                </div>
+                                <div class="text-ketab">
+                                    <p>PAGES</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="text_add">
+                                    <h1>600</h1>
+                                </div>
+                                <div class="img_ketab">
+                                    <img src="image/awards.png" alt="">
+                                </div>
+                                <div class="text-ketab">
+                                    <p>AWARDS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--row-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c1"></div>
+
+        <div class="container hidden-xs" id="REVIEW">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="text">
+                        <h1>LATEST NEWS</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                    <div class="c2"></div>
+                    <article id="tab-product" class="clearfix carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner" cache-mobile="true">
+
+                            <div class="col-md-4 col-sm-4 col-xs-12 box_blog">
+                                <div class="box_content clearfix" id="box1">
+                                    <div class="box_cont">
+                                        <div class="text_feb">
+                                            <h5>BLOG POST TITLE</h5>
+                                            <p>15 Feb, 2017</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                        </div>
+                                        <div class="text_like">
+                                            <p>?</p>
+                                        </div>
+                                        <div class="text-like1">
+                                            <p>26</p>
+                                        </div>
+                                        <div class="text_read">
+                                            <p>READ MORE</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 box_blog">
+                                <div class="box_content clearfix" id="box2">
+                                    <div class="box_cont">
+                                        <div class="text_feb">
+                                            <h5>BLOG POST TITLE</h5>
+                                            <p>15 Feb, 2017</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                        </div>
+                                        <div class="text_like">
+                                            <p>?</p>
+                                        </div>
+                                        <div class="text-like1">
+                                            <p>26</p>
+                                        </div>
+                                        <div class="text_read">
+                                            <p>READ MORE</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-12 box_blog">
+                                <div class="box_content clearfix" id="box3">
+                                    <div class="box_cont">
+                                        <div class="text_feb">
+                                            <h5>BLOG POST TITLE</h5>
+                                            <p>15 Feb, 2017</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                        </div>
+                                        <div class="text_like">
+                                            <p>?</p>
+                                        </div>
+                                        <div class="text-like1">
+                                            <p>26</p>
+                                        </div>
+                                        <div class="text_read">
+                                            <p>READ MORE</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+                <div class="c1"></div>
+            </div>
+        </div>
+
+        <div class="c1"></div>
+        <div class="text5 hidden-xs">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="carousel" data-flickity='{ "autoPlay": 3000,"pauseAutoPlayOnHover": false }'>
+                            <div class="carousel-cell">
+                                <div class="img_cell"></div>
+                                <div class="rounded_cell">
+                                    <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                        nec, pellentesque eu, pretium quis, sem.”</p>
+
+                                    <p>JULIANA ANNA</p>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="img_cell"></div>
+                                <div class="rounded_cell">
+                                    <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                        nec, pellentesque eu, pretium quis, sem.”</p>
+
+                                    <p>JULIANA ANNA</p>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                            <div class="carousel-cell">
+                                <div class="img_cell"></div>
+                                <div class="rounded_cell">
+                                    <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                        nec, pellentesque eu, pretium quis, sem.”</p>
+
+                                    <p>JULIANA ANNA</p>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--row-->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="c1"></div>
+        <div class="container" id="PRICING">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="text">
+                        <h1>PRICING PLAN</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                    <div class="c2"></div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-10 shared_cont">
+                        <div class="position_content clearfix">
+                            <div class="box_rounded">
+                                <h3>PROFESSIONAL</h3>
+                                <p>30<span class="superscript">$</span></p>
+                            </div>
+                            <div class="clearfix text_position">
+                                <!-- content -->
+                                <p>Basic Membership</p>
+                                <p>&nbsp;</p>
+                                <p>Unlimited downloads</p>
+                                <p>&nbsp;</p>
+                                <p>Printing</p>
+                                <p>&nbsp;</p>
+                                <p>24 hours Support</p>
+                            </div>
+                            <button type="button" class="btn btn-default">PURCHASE NOW</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-10 shared_cont">
+                        <div class="position_content clearfix">
+                            <div class="box_rounded active" id="box4">
+                                <h3>BUSINESS</h3>
+                                <p>50<span class="superscript">$</span></p>
+                            </div>
+                            <div class="clearfix text_position">
+                                <!-- content -->
+                                <p>Basic Membership</p>
+                                <p>&nbsp;</p>
+                                <p>Unlimited downloads</p>
+                                <p>&nbsp;</p>
+                                <p>Printing</p>
+                                <p>&nbsp;</p>
+                                <p>24 hours Support</p>
+                            </div>
+                            <button type="button" class="btn active">PURCHASE NOW</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-10 shared_cont">
+                        <div class="position_content clearfix">
+                            <div class="box_rounded">
+                                <h3>PERSONAL</h3>
+                                <p>70<span class="superscript">$</span></p>
+                            </div>
+                            <div class="clearfix text_position">
+                                <!-- content -->
+                                <p>Basic Membership</p>
+                                <p>&nbsp;</p>
+                                <p>Unlimited downloads</p>
+                                <p>&nbsp;</p>
+                                <p>Printing</p>
+                                <p>&nbsp;</p>
+                                <p>24 hours Support</p>
+                            </div>
+                            <button type="button" class="btn btn-default">PURCHASE NOW</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="c1"></div>
+        <div class="container" id="CONTACT">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="text">
+                        <h1>CONTACT US</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    </div>
+                    <div class="c2"></div>
+                    <div class="col-md-6 col-sm-6 col-xs-10 pull-right" id="text_contact_right">
+                        <div class="size_fixed shared_content">
+
+                            <iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=Adobe%20Systems%20Inc%2C%20Park%20Avenue%2C%20San%20Jose%2C%20CA&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 pull-left" id="text_contact_left">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <!-- <div class="c2"></div> -->
+                            <div class="photo-contact">
+                                <img src="image/phone.png" alt="">
+                            </div>
+                            <div class="text-contact">
+                                <p>546 Little Lonsdale st Philippines, PH 62058</p>
+                            </div>
+                            <div class="photo-contact photo-cont">
+                                <img src="image/email.png" alt="">
+                            </div>
+                            <div class="text-contact" style="right:80px;">
+                                <p>+123-456-78910</p>
+                            </div>
+                            <div class="photo-contact photo-cont">
+                                <img src="image/map.png" alt="">
+                            </div>
+                            <div class="text-contact" style="right:65px;">
+                                <p>example@domain.com</p>
+                            </div>
+                            <div class="c2"></div>
+                            <form id="form1" name="form1" method="post" class="form_contact">
+
+
+                                <input type="text" name="Name" id="Name" value="Name" tabindex="1" spellcheck="false">
+
+                                <input type="email" name="Email" id="Email" value="Email" spellcheck="false" tabindex="2">
+
+                                <textarea name="textarea" id="textarea" value="Your Message" tabindex="3">Your Message</textarea>
+                                <button type="button" class="btn btn-default">SEND MESSAGE</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!--main-->
+
+
+    <div class="c1"></div>
+    <footer id="footer_outer">
+        <div class="container">
+            <div class="social-links">
+                <ul>
+                    <li class="link">
+                        <p></p>
+                    </li>
+                    <li class="link">
+                        <p></p>
+                    </li>
+                    <li class="link">
+                        <p></p>
+                    </li>
+                    <li class="link">
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy_left">
+                Copyright © 2017 - All Right Reserved
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
+
+</body>
+
+</html>
